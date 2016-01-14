@@ -15,6 +15,13 @@ module.exports = (robot) ->
         "輝く光が...誘う行方..."
       ]
 
+  robot.hear /OOH OOH!/i, (msg) ->
+      msg.send msg.random [
+        "SAY IT NOW",
+        "SAY IT!",
+        "SAY IT."
+      ]
+
   robot.hear /はげ！/i, (msg) ->
       msg.send msg.random [
         "はね！",
@@ -45,4 +52,13 @@ module.exports = (robot) ->
   robot.hear /おちんちん/i, (msg) ->
       msg.send msg.random [
         "びろ〜ん"
+      ]
+
+  robot.hear /ぱこ|パコ|ぱっこーん|パッコーン/i, (msg) ->
+      msg.send msg.random [
+        "パコパカじゃね〜から〜",
+        "正直2回だけパコった",
+        "有機的オナホじゃねーから",
+        "A瀬さんとパコったん？",
+        "カジュアルにパコろ"
       ]
