@@ -15,9 +15,25 @@ module.exports = (robot) ->
         "輝く光が...誘う行方..."
       ]
 
+  robot.hear /OOH OHH!/i, (msg) ->
+      msg.send msg.random [
+        "SAY IT NOW",
+        "SAY IT!",
+        "SAY IT."
+      ]
 
   robot.hear /はげ！/i, (msg) ->
       msg.send msg.random [
         "はね！",
         "はげてねーから〜"
+      ]
+
+  robot.hear /ンゴ|ﾝｺﾞ/i, (msg) ->
+      msg.send msg.random [
+        "ヒェ〜ェwwwwwwwwwwwwww",
+        "大草原不可避",
+        "それ腹筋崩壊案件やな",
+        "クソワロタwwwwwwww",
+        "ファッ！？wwwwww",
+        "S西っと"
       ]
