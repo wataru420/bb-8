@@ -38,7 +38,7 @@ module.exports = (robot) ->
         "S西っと"
       ]
 
-  robot.hear /おちんちん|ムカつく|イラつく|イライラ|いらつく|いらいら/i, (msg) ->
+  robot.hear /むかつく|ムカつく|イラつく|イライラ|いらつく|いらいら/i, (msg) ->
       msg.send msg.random [
         "ｺﾒﾋﾟｷｶﾙｼｳﾑ案件やな〜",
         "殴ろう",
