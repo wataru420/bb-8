@@ -51,5 +51,5 @@ module.exports = (robot) ->
       
   robot.hear /おちんちん/i, (msg) ->
       msg.send msg.random [
-        "びろ〜ん〜"
+        "びろ〜ん"
       ]
