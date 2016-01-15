@@ -62,3 +62,7 @@ module.exports = (robot) ->
         "A瀬さんとパコったん？",
         "カジュアルにパコろ"
       ]
+
+
+  robot.hear /(.+)いお$/i, (msg) ->
+    msg.reply "#{msg.match[1]}いンゴね〜"
