@@ -9,6 +9,6 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-yahoo-amagumo"
+  "hubot-yahoo-amagumo",
   "hubot-heroku-keepalive"
 ]
