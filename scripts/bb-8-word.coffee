@@ -28,6 +28,11 @@ module.exports = (robot) ->
         "はげてねーから〜"
       ]
 
+  robot.hear /スヤァ|ｽﾔｧ|眠い|寝てた|クソネミ|くそねみ/i, (msg) ->
+      msg.send msg.random [
+        "( ˘ω˘)ｽﾔｧ"
+      ]
+
   robot.hear /ンゴ|ﾝｺﾞ/i, (msg) ->
       msg.send msg.random [
         "ヒェ〜ェwwwwwwwwwwwwww",
@@ -53,6 +58,12 @@ module.exports = (robot) ->
       msg.send msg.random [
         "びろ〜ん"
       ]
+      
+  robot.hear /なんの！/i, (msg) ->
+      msg.send msg.random [
+        "お惣菜です！"
+      ]
+
 
   robot.hear /ぱこ|パコ|ぱっこーん|パッコーン/i, (msg) ->
       msg.send msg.random [
