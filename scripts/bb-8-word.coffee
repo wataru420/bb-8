@@ -63,7 +63,13 @@ module.exports = (robot) ->
       msg.send msg.random [
         "お惣菜です！"
       ]
-
+      
+  robot.hear /いまから出社/i, (msg) ->
+      msg.send msg.random [
+        "ザッケローニ",
+        "S西っと",
+        "ざっけろコポミ"
+      ]
 
   robot.hear /ぱこ|パコ|ぱっこーん|パッコーン/i, (msg) ->
       msg.send msg.random [
