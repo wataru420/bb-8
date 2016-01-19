@@ -85,5 +85,11 @@ module.exports = (robot) ->
         "うざみぃぃぃぃぃぃ"
       ]
 
+  robot.hear /アスペ/i, (msg) ->
+      msg.send msg.random [
+        "> アスペルガー症候群は、自閉症のひとつであるとされている病気。しかし、自閉症とは違い、他者とコミュニケーションを取ろうとするのがこの病気の特徴です。"
+      ]
+
+
   robot.hear /(.+)いお$/i, (msg) ->
     msg.reply "#{msg.match[1]}いンゴね〜"
