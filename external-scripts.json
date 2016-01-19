@@ -10,5 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-yahoo-amagumo",
-  "hubot-heroku-keepalive"
+  "hubot-heroku-keepalive",
+  "hubot-vine"
 ]
