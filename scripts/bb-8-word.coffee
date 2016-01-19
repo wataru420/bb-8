@@ -80,6 +80,10 @@ module.exports = (robot) ->
         "カジュアルにパコろ"
       ]
 
+  robot.hear /たいっちたいっち/i, (msg) ->
+      msg.send msg.random [
+        "うざみぃぃぃぃぃぃ"
+      ]
 
   robot.hear /(.+)いお$/i, (msg) ->
     msg.reply "#{msg.match[1]}いンゴね〜"
