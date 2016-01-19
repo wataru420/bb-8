@@ -80,7 +80,7 @@ module.exports = (robot) ->
         "カジュアルにパコろ"
       ]
 
-  robot.hear /たいっちたいっち|/i, (msg) ->
+  robot.hear /たいっちたいっち/i, (msg) ->
       msg.send msg.random [
         "うざみぃぃぃぃぃぃ"
       ]
