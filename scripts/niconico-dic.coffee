@@ -42,7 +42,7 @@ hatenakeyword = (word,msg) ->
   url = 'http://d.hatena.ne.jp/keyword/' + encodeURIComponent(word)
   eucFetch url, (_, res, body) ->
     $ = cheerio.load(body)
-    p = $('div.section').text()
+    p = $('div.section p').text()
     if p != ""
       msg.send p.trim()
     else
