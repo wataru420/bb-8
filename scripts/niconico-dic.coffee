@@ -14,3 +14,6 @@ module.exports = (robot) ->
       p = $('div.article p').not('div.adsense-728 p').first().text()
       if p != ""
         msg.send p
+      else
+        msg.send "しらね"
+
