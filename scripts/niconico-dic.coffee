@@ -33,7 +33,7 @@ nicodic = (word,msg,callback) ->
   request url, (_, res) ->
     $ = cheerio.load res.body
 #    p = $('div.article p').not('div.adsense-728 p').first().text()
-    p = $('div.article').nextUntil("h2").text()
+    p = $('div.article #page-menu').nextUntil("h2").text()
     if p != ""
       msg.send p
     else
