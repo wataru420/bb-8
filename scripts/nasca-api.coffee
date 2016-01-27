@@ -17,11 +17,14 @@ getSchedules = (id,date,msg) ->
     headers : {'Cookie': cookie}
 
   request options, (err, res, body) ->
-    res = ""
     json = JSON.parse body
+    res = """#{json.data.title}
 
+    """
     for s in json.data.schedules
-      res += """---------------
+      res += """
+      
+      ---------------
       #{s.startDateString[0]} #{s.startDateString[1]}〜#{s.endDateString[0]} #{s.endDateString[1]}
       #{s.title}
       #{s.joinUser}
