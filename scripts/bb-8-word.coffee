@@ -92,9 +92,12 @@ module.exports = (robot) ->
   robot.hear /それな$|それな！|それな!/i, (msg) ->
       msg.send msg.random [
         "http://www.hanakuro.jp/wp-content/uploads/2014/10/446px-Uncle_Sam_pointing_finger1.jpg",
-        "http://箱推しラブライブ.xyz/wp-content/uploads/2015/03/1426257855-cea86db130c31753f9fac7d68f44c3eb.jpg",
+        "https://pbs.twimg.com/profile_images/421596690286526465/pHnwpZU_.jpeg",
         "http://d2dcan0armyq93.cloudfront.net/photo/odai/400/f678aa1a332b9ba6e0ca666c7d5969c6_400.jpg",
         "http://cdn-ak.f.st-hatena.com/images/fotolife/h/horo3341/20150513/20150513233048.jpg",
+        "http://i0.wp.com/kaola.jp/wp-content/uploads/2014/12/386994b61d9371f5dbfc239f3103f110.jpg?resize=500%2C148",
+        "http://i2.wp.com/kaola.jp/wp-content/uploads/2014/12/dd9e2bff41509a95029712f41916abd4.jpg",
+        "http://bokemato.com/img/17456392.jpg",
         "(つ >ω●)つ それな！"
       ]
 
