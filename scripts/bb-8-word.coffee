@@ -40,6 +40,7 @@ module.exports = (robot) ->
         "それ腹筋崩壊案件やな",
         "クソワロタwwwwwwww",
         "ファッ！？wwwwww",
+        "ｱｯｵｩｱｯｵｩ",
         "S西っと"
       ]
 
