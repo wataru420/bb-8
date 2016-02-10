@@ -122,3 +122,12 @@ module.exports = (robot) ->
 
   robot.hear /(.+)いお$/i, (msg) ->
     msg.reply "#{msg.match[1]}いンゴね〜"
+
+  robot.hear /(.+)申し訳ない$/i, (msg) ->
+    msg.reply "#{msg.match[1]}申し訳ぬーやで"
+
+  robot.hear /(.+)もうしわけない$/i, (msg) ->
+    msg.reply "#{msg.match[1]}もうしわけぬーやで"
+
+  robot.hear /(.+)ごめんね$/i, (msg) ->
+    msg.reply "#{msg.match[1]}ごめんぬーやで"
