@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-yahoo-amagumo",
   "hubot-heroku-keepalive",
-  "hubot-vine"
+  "hubot-vine",
+  "hubot-yelp"
 ]
