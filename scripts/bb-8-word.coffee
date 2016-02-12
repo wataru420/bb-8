@@ -99,6 +99,7 @@ module.exports = (robot) ->
         "http://i0.wp.com/kaola.jp/wp-content/uploads/2014/12/386994b61d9371f5dbfc239f3103f110.jpg?resize=500%2C148",
         "http://i2.wp.com/kaola.jp/wp-content/uploads/2014/12/dd9e2bff41509a95029712f41916abd4.jpg",
         "http://bokemato.com/img/17456392.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS8CRZi_ephNtUiMNVAHQVCHYr9vTMSvnSw1NRfWOsVUmyDIRdig",
         "(つ >ω●)つ それな！"
       ]
 
