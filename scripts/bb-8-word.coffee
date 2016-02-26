@@ -93,6 +93,7 @@ module.exports = (robot) ->
   robot.hear /それな$|それな！|それな!/i, (msg) ->
       msg.send msg.random [
         "http://www.hanakuro.jp/wp-content/uploads/2014/10/446px-Uncle_Sam_pointing_finger1.jpg",
+        "http://stamp.bokete.jp/32224793.png",
         "https://pbs.twimg.com/profile_images/421596690286526465/pHnwpZU_.jpeg",
         "http://d2dcan0armyq93.cloudfront.net/photo/odai/400/f678aa1a332b9ba6e0ca666c7d5969c6_400.jpg",
         "http://cdn-ak.f.st-hatena.com/images/fotolife/h/horo3341/20150513/20150513233048.jpg",
