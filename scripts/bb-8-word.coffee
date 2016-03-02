@@ -22,6 +22,14 @@ module.exports = (robot) ->
         "SAY IT."
       ]
 
+  robot.hear /Na Ka Ta|nakata/i, (msg) ->
+      msg.send msg.random [
+        "Na Ka Ta",
+        "nakata",
+        "I’m a perfect human"
+      ]
+
+
   robot.hear /はげ！/i, (msg) ->
       msg.send msg.random [
         "はね！",
