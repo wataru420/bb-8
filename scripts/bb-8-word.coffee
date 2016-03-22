@@ -29,6 +29,12 @@ module.exports = (robot) ->
         "I’m a perfect human"
       ]
 
+  robot.hear /まっすー/i, (msg) ->
+      msg.send msg.random [
+        "Ma Ma Ma Ma まっす〜",
+        "ままままっす〜",
+        "ままます、やばます"
+      ]
 
   robot.hear /はげ！/i, (msg) ->
       msg.send msg.random [
