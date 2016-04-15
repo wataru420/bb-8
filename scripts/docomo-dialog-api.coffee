@@ -38,7 +38,7 @@ module.exports = (robot) ->
     request.post
       url: url
       json:
-        t: 30
+        t: 20
         utt: message
         nickname: user_name if user_name
         context: context if context
