@@ -168,3 +168,6 @@ module.exports = (robot) ->
 
   robot.hear /ごめんね$/i, (msg) ->
     msg.send "ごめんぬーやで〜"
+
+  robot.hear /吐くまで飲むぞ/i, (msg) ->
+    msg.send "博報堂〜"
