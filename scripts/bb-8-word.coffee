@@ -47,6 +47,11 @@ module.exports = (robot) ->
         "はげてねーから〜"
       ]
 
+  robot.hear /ヤバ|くっそ|クッソ|ファクト/i, (msg) ->
+      msg.send msg.random [
+        "ぶふぉぁー、くっそファクトっすね"
+      ]
+
   robot.hear /スヤァ|ｽﾔｧ|眠い|寝てた|クソネミ|くそねみ/i, (msg) ->
       msg.send msg.random [
         "( ˘ω˘)ｽﾔｧ"
