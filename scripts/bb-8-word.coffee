@@ -176,3 +176,6 @@ module.exports = (robot) ->
 
   robot.hear /吐くまで飲むぞ/i, (msg) ->
     msg.send "博報堂〜"
+
+  robot.hear /デンスイ|でんすい|田酔|酔ってる/i, (msg) ->
+    msg.send "でんすいめ〜ん"
