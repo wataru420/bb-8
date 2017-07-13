@@ -134,7 +134,7 @@ module.exports = (robot) ->
         "うざみぃぃぃぃぃぃ"
       ]
 
-  robot.hear /おぐろ/i, (msg) ->
+  robot.hear /おぐろ|みきお|末松|きよの|清野/i, (msg) ->
       msg.send msg.random [
         "なぐろ",
         "ころそ",
