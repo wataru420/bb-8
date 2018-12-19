@@ -40,7 +40,7 @@ module.exports = (robot) ->
       json:
         language: 'ja-JP'
         botId: 'Chatting'
-        appId: 'E9163955-3E64-4b41-B5D8-746AA30E9B08'
+        appId: '0bfd845f-be3f-4b0c-a3b7-9b6bfbac014d'
         voiceText: message
         t: 20
         utt: message
