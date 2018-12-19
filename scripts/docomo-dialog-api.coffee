@@ -31,13 +31,17 @@ module.exports = (robot) ->
     if diff_minutes > TTL_MINUTES
       context = ''
 
-    url = 'https://api.apigw.smt.docomo.ne.jp/dialogue/v1/dialogue?APIKEY=' + DOCOMO_API_KEY
+    url = 'https://api.apigw.smt.docomo.ne.jp/naturalChatting/v1/dialogue?APIKEY=' + DOCOMO_API_KEY
     user_name = msg.message.user.name
 
     request = require('request');
     request.post
       url: url
       json:
+        language: 'ja-JP'
+        botId: 'Chatting'
+        appId: 'E9163955-3E64-4b41-B5D8-746AA30E9B08'
+        voiceText: message
         t: 20
         utt: message
         nickname: user_name if user_name
@@ -50,4 +54,4 @@ module.exports = (robot) ->
         now_msec = new Date().getTime()
         robot.brain.set KEY_DOCOMO_CONTEXT_TTL, now_msec
 
-        msg.send body.utt
+        msg.send body.systemText.expression
